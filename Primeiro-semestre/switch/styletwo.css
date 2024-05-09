@@ -1,0 +1,34 @@
+img{
+    width: 500px;
+    height: 300px;
+    margin: 0px;
+}
+body{
+    background:moccasin;
+    margin: auto;
+    text-align:initial;
+}
+h1{
+    font:oblique;
+    margin: 20px 125px;
+}
+iframe{
+    width: 500px;
+    height: 300px;
+    margin: 0px 70px;
+}
+.main{
+    margin-bottom: 0px;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+}
+footer{
+background-color: gray;
+border: gray;
+margin: auto;
+text-align: center;
+height: 30px;
+
+}
+

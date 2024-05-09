@@ -1,0 +1,34 @@
+p {
+    color: blue;
+}
+#maluco{
+    color: black;
+}
+#doido{
+    color: aqua;
+}
+li {
+    list-style: decimal;
+}
+.dentro {
+    width: 600px;
+    height: 300px;
+    background-color: aqua;
+}
+
+.fora {
+    width: 700px;
+    height: 700px;
+    background-color: black;
+    background-image:url(https://conteudo.imguol.com.br/c/esporte/5c/2023/09/29/neymar-do-al-hilal-durante-partida-contra-o-al-shabab-pelo-campeonato-saudita-1696015287756_v2_360x480.jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    
+    
+}
+
+body{
+    background:black;
+}
