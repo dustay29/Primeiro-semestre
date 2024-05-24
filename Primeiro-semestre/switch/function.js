@@ -96,24 +96,129 @@
 
 // Extra 3
 
-let array = [ 6,9,68,24,5]
-let maior = 0
-let menor = 100
+// let array = [ 6,9,68,24,5]
+// let maior = 0
+// let menor = 100
 
-function desc (array){
-    for (i = 0; i < array.length; i++){
-        if(array[i] > maior){       
-            maior = array[i] 
-    }
-        if(array[i] < menor){
-            menor = array[i] 
-     }
- }
+// function desc (array){
+//     for (i = 0; i < array.length; i++){
+//         if(array[i] > maior){       
+//             maior = array[i] 
+//     }
+//         if(array[i] < menor){
+//             menor = array[i] 
+//      }
+//  }
+// }
+
+// desc (array)
+// alert (maior)
+// alert (menor)
+
+// Exercicio 1 23/05
+
+// Crie uma função anônima para gerar uma mensagem de convite de casamento, quedeve receber 
+// nomeConvidado, data, horário, local e nomeNoivos e a partir disso monte uma mensagem convidando a pessoa para 
+// o casamento. Realize pelo menos 3 chamadas para ela e valide se o retorno foi o esperado.
+
+// let mensagem = function (nomeConvidado,data,horario,local,nomeNoivos){
+//     alert ("Olá, " + nomeConvidado + "!\nVocê está sendo convidado para o casamento de " + nomeNoivos + "\nNo dia " + data + "\nNo horário " + horario + "\nNo local " + local )
+// }
+
+// let nome = prompt ("Qual o nome do convidado?")
+
+// mensagem (nome, "29/05", "12h", "Rio do Cedro", "Fernanda e Gabriel")
+// mensagem (nome, "29/05", "12h", "Rio do Cedro", "Fernanda e Gabriel")
+// mensagem (nome, "29/05", "12h", "Rio do Cedro", "Fernanda e Gabriel")
+
+// Exercicio 2  23/05
+
+// Crie um Array numérico com 10 elementos e a partir dele utilize o 
+// método everypara verificar se todos são ímpares.
+
+// let array = [1,3,5,7,9]
+
+// let verificarImpares = array.every (function (valorAtual){
+//     return valorAtual % 2 !=0
+
+// })
+
+// console.log (verificarImpares)
+
+// Exercicio 3  23/05
+
+//Crie um Array numérico com 10 elementos e utilize o método map para a partir delecriar um novo Array 
+//onde os novos elementos devem ser os antigos ao quadrado.
+
+// let array = [3,7,18,19,34,50,67,88,94,100]
+
+// let elementos = array.map ((elementosAtual) => elementosAtual *2)
+
+// console.log(elementos)
+
+//Exercicio 4 23/05
+
+// Crie um programa que recebe 10 números de inscrição para um campeonato. A partir desses números, 
+// utilizando o método filter, crie um Array para os jogadores do time de números
+// pares e um outro para os jogadores do time de números ímpares. 
+// Ao final exiba na tela se os times estão com a mesma quantidade de jogadores.
+
+// let array = [1,2,3,4,5,6,7,8,9,10]
+// let impar = []
+// let par = []
+
+// impar = array.filter((imparAtual) => imparAtual %2 != 0)
+// console.log (impar)
+
+// par = array.filter((parAtual) => parAtual %2 == 0)
+// console.log (par)
+
+// if (impar.length == par.length){
+//     console.log ("Os times estão com o mesmo número de jogadores!")
+// }else{
+//     console.log ("Os times NÃO estão com o mesmo número de jogadores!")
+// }
+
+//Exercicio 5 23/05
+
+// Crie um laço de repetição para solicitar 5 idades e armazená-las em um array, 
+// use ométodo every para verificar se todos os usuários são maiores de idade.
+
+// let arrayIdade = []
+
+// for (i = 0; i < 5; i++){
+//     let idade = Number (prompt("Digite a sua idade:"))
+//     arrayIdade.push(idade)
+// }
+// let verificarIdade  = arrayIdade.every((valorAtual) => valorAtual >= 18)
+
+// alert (verificarIdade
+
+// Exercicio 6 23/05
+
+//Crie um array de preços e use o método 
+//filter para criar um novo array que contenha apenas os preços inferioriores a R$ 50
+
+// let precos = [60,49,70,80,10,70,300,38,12]
+
+// let maiorQue50 = precos.filter((numeroAtual) => numeroAtual < 50)
+// console.log (maiorQue50)
+
+// Extra 1
+
+// Extra 1: Crie um laço de repetição para solicitar 5 números, 
+// armazene-os em um arraye use o método reduce para encontrar e mostrar o maior valor no array.
+
+let numeros = []
+
+for (i = 0; i < 5; i++){
+    let num = Number (prompt("Digite um número:"))
+    numeros.push(num)
 }
 
-desc (array)
-alert (maior)
-alert (menor)
+
+
+
 
 
 
