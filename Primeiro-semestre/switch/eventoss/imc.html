@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="imc.js"></script>
+    <script src="imc.js" defer></script>
     <link rel="stylesheet" href="imc.css">
 </head>
 <body>
+
+    <img src="https://www.youtz.com.br/wp-content/uploads/2019/10/YOUTZ-MATEMATICA-ENEM.jpg" alt="">
 
     <p>
 MENOR QUE 18,5 - MAGREZA
@@ -21,13 +23,13 @@ ENTRE 30,0 E 39,9 - OBESIDADE
 MAIOR QUE 40,0 - OBESIDADE GRAVE
     </p>
     
-<form onsubmit="enviarFormulario(event)">
+<form onsubmit="enviarFormulario(event)" id="form">
 
     <label for="id_nome">Nome</label>
     <input type="text" id="id_nome" name="nome">
 
     <label for="id_altura">Altura</label>
-    <input type="text" id="id_altura" name="altura">
+    <input type="number"  step="0.01"  id="id_altura" name="altura">
 
     <label for="id_peso">Peso</label>
     <input type="number" id="id_peso" name="peso">
@@ -39,7 +41,8 @@ MAIOR QUE 40,0 - OBESIDADE GRAVE
     <input type="url" id="id_url" name="url">
 
     <button type="submit">Avaliar</button>
-</form>
 
+</form>
+<p id="response"> </p>
 </body>
 </html>

@@ -1,7 +1,12 @@
 body{
-    background-color: rgb(230, 255, 160);
+    background-color: rgb(201, 160, 255);
 }
 
 form{
     text-align: center;
+   }
+
+   img {
+    height: 300px;
+    width: 300px;
    }
