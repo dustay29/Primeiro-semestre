@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de principais</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <header> <!--Cabeçalho do Site + Botões -->
+        <button onclick="inicio()">Inicio</button>
+        <button onclick="principais()">Principais</button>
+        <button onclick="viloes()">Vilões</button>
+        <button onclick="cadastro()">Cadastrar um protagonista</button>
+    </header>
+    <main>
+        <!--DIV para cadastrar um protagonista -->
+        <div id="divcadastro" class="xdf oculto">  
+            <h2> Cadastrar um protagonista</h2>
+            <form onsubmit="cadastrar_protagonista(event)" id="formulario">
+                <input type="url" id="foto" placeholder="URL da Foto">
+                <input type="text" id="personagem" placeholder="Nome do Personagem">
+                <input type="text" id="filme" placeholder="Filme">
+                <input type="text" id="autor" placeholder="Nome do Ator/Atriz">
+                <input type="text" id="habilidades" placeholder="Habilidades">
+                <input type="text" id="descricao" placeholder="Descrição">
+                <button type="submit">Adicionar</button>
+            </form>
+        </div>
+        <h2>
+            Lista de protagonistas
+        </h2>
+        <!-- DIV para ele aparecer dentro do site -->
+        <div class="protagonista" id="listaprotagonista">
+
+        </div>
+    </main>
+</body>
+</html>
