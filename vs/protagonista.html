@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina de protagonistas</title>
-    <script src="protagonsita.js" defer></script>
+    <script src="protagonista.js" defer></script>
     <link rel="stylesheet" href="protagonista.css">
 </head>
 <body>  
+    <!-- Botões da página de navegação -->
     <header>
         <div>
             <button class="navegation" onclick="inicio()"><b>Inicio</b></button>
@@ -16,6 +17,7 @@
             <button class="navegation" onclick="cadastro()"><b>Cadastrar um protagonista</b></button>
         </div>
     </header>
+    <!-- Input para cadastrar um protagonista -->
     <main>
         <div id="divcadastro" class="abc oculto">  
             <h2> Cadastrar um protagonista</h2>
@@ -32,9 +34,13 @@
         <h1>
             Lista de protagonistas
         </h1>
+
+        <!-- Onde a lista de filmes ficará colocada -->
         <div class="listaprotagonista" id="listaprotagonista">
 
         </div>
+
+        
     </main>
 </body>
 </html>

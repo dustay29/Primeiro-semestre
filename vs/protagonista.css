@@ -1,3 +1,4 @@
+/* Costumizando a página em geral */
 body {
     background-color: #f5f5f5;
     font-family: 'Arial', sans-serif;
@@ -5,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/* Costumizando o menu de navegação */
 header {
     background-color: gold;
     margin: 0 auto;
@@ -16,7 +17,7 @@ header {
     border-bottom: 2px solid #ccc;
     border: 3px solid black;
 }
-
+/* Costumizando os botões em gerais do site */
 button {
     display: flex;
     flex-direction: row;
@@ -29,16 +30,18 @@ button {
     transition: 0.3s;
     border: 1px solid black;
 }
-
+/* Costumizando os botões em gerais do site */
 button:hover {
     background-color: #ffd700;
 }
+/* Costumizando a lista dos protagonistas */
 #listaprotagonista{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+/* Costumizando a lista dos protagonistas */
 .protagonista {
     display: flex;
     flex-wrap: wrap;
@@ -53,7 +56,7 @@ button:hover {
     transition: 0.3s;
     border: 1px solid black;
 }
-
+/* Costumizando a imagem da lista */
 .imgprotagonista {
     height: 200px;
     width: 200px;
@@ -61,7 +64,7 @@ button:hover {
     border-radius: 5px;
     padding: auto;
 }
-
+/* Costumizando a página de cadastro */
 .abc {
     display: flex;
     align-items: center;
@@ -73,16 +76,16 @@ button:hover {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -30%);
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.2);
     border: 3px solid black;
 }
-
+/* Ocultar a página de cadastro */
 .oculto {
     display: none;
 }
-
+/* Costumizando o input do forms */
 input {
     margin: 10px 0;
     width: calc(100% - 20px);
@@ -91,14 +94,14 @@ input {
     border-radius: 5px;
     font-size: 1em;
 }
-
+/* Costumizando o input do forms */
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px;
 }
-
+/* Costumizando o input do forms */
 #formulario {
     display: flex;
     flex-direction: column;
@@ -107,7 +110,7 @@ main {
     max-width: auto;
     height: fit-content;
 }
-
+/* Costumizando o botão de excluir */
 .bbb{
     background-color: red;
 }
@@ -115,17 +118,17 @@ main {
 #desc{
     text-align: center;
 }
-
+/* Centralizando o titulo da página */
 h1{
     text-align: center;
 }
-
+/* Mudando a cor dos botões da página de navegação para cinza */
 .navegation{
     background-color: gray;
 
 
 }
-
+/* Quando o cursor do mouse ficar encima o botão der uma clareado */
 .navegation:hover{
     background-color: rgb(158, 157, 157) ;
 }
